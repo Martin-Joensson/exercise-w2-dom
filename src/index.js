@@ -4,11 +4,12 @@ const box = document.getElementById("box");
 const dark = document.getElementById("dark");
 const light = document.getElementById("light");
 const crazy = document.getElementById("crazy");
+//Add transition
+box.style.transitionDuration = "0.5s";
 
 // Functions
 const changeToDark = () => {
   box.style.backgroundColor = "#663399";
-  box.style.transitionDuration = "3s"
 }
 
 const changeToLight= () => {
