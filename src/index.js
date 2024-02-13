@@ -10,20 +10,17 @@ box.style.transitionDuration = "0.5s";
 // Functions
 const changeToDark = () => {
   box.style.backgroundColor = "#663399";
-}
+};
 
-const changeToLight= () => {
+const changeToLight = () => {
   box.style.backgroundColor = "#ccc";
-}
+};
 
-const changeToCrazy= () => {
-    box.style.backgroundColor = "lightgreen";
-}
-
-
+const changeToCrazy = () => {
+  box.style.backgroundColor = "lightgreen";
+};
 
 // Event listners
-dark.addEventListener("click", changeToDark)
-light.addEventListener("click", changeToLight)
-crazy.addEventListener("click", changeToCrazy)
-
+dark.addEventListener("click", changeToDark);
+light.addEventListener("click", changeToLight);
+crazy.addEventListener("click", changeToCrazy);
